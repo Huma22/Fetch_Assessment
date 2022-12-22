@@ -40,6 +40,8 @@ To run this code, you will need to have the required dependencies installed and 
 
 pip install fastapi pydantic sqlite3
 
+pip install "uvicorn[standard]"
+
 Once the dependencies are installed, you can start the server by running the following command:
 
 uvicorn spend_points:app --reload
